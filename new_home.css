@@ -1,0 +1,349 @@
+body, div, span, p, h2, h1, ul, li, h2, ol {
+    padding: 0; 
+    margin: 0;
+}
+ul, li{
+    display: inline-block;
+    list-style: none;
+    
+}
+
+body{
+	font-family: 'NanumSquareL', sans-serif;
+    font-weight: 100;
+	color: #000;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ상단ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+.home{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.top_button{
+    width: 60px;
+    position: fixed;
+    bottom: 48px;
+    right: 20px;
+}
+
+.top{
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.nav{
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding: 30px 0 0;
+    margin: 0 auto;
+    line-height: 50px;
+}
+
+.nav h2{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.menu{
+    float: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.menu li:first-child{
+    margin-left: 0;
+}
+
+.menu li{
+    vertical-align: top;
+    margin-left: 19px;
+}
+
+.menu li a{
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.main{
+    width: 100%;
+    height: 618px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    }
+
+.top_text{
+    text-align: center;
+    color: #4c4c4c;
+    text-align: left;
+    margin: 160px 20px 160px 20px;
+
+}
+.metitle{
+    text-align: center;
+    color: #aaa;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.meposition{
+    text-align: center;
+    color: #4c4c4c;
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom: 60px;
+}
+
+.meposition p {
+    font-weight: 700;
+}
+
+.adress a{
+    font-size: 14px;
+    color: #999;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ중간ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+
+.middle{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #1C1B20;
+}
+
+.mi_text{
+    padding-left: 20px;
+    width: 100%;
+    max-width:1000px;
+    margin: 0 auto;
+}
+.text_hello{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: -0.3px;
+    margin-left: 20px;
+    padding-top: 80px;
+    
+}
+.hello{
+    font-size: 28px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    float: left;
+    display: inline;
+    margin-right: 250px;
+    color: #fff;
+}
+
+.middle_contents{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+
+span a{
+
+    padding: 0;
+    margin: 0;
+    text-decoration:none;
+    font-size: 14px;
+    display: inline-block;
+}
+
+
+button {
+  margin:40px 10px 20px 0;
+}
+.custom-btn {
+  font-weight:200;
+  color: #fff;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+/**** BTN No. 3 ****/
+.btn-3 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before, .btn-3:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 0;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover:before {height: 100%;}
+.btn-3:hover:after {width: 100%;}
+.btn-3 span:before, .btn-3 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 3px;
+}
+.btn-3 span:hover:before {height: 100%;}
+.btn-3 span:hover:after {width: 100%;}
+
+
+
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ마지막ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+.bottom{
+    color:#4c4c4c;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.text_box{
+    padding-left: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.text_con{
+    padding-bottom: 8px;
+    margin-left: 20px;
+    padding-top: 100px;
+}
+
+.title{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    color: #000;
+    padding-bottom: 48px;
+    display: inline;
+    margin-right: 250px;
+    float: left;
+    font-weight: 600;
+
+}
+
+.title3{
+    width: 500px;
+    display: inline-block;
+    
+}
+
+  .sub_title{
+        font-size: 17px;
+        margin-bottom: 16px;
+        padding-bottom: 0;
+        color: #000;
+    }
+
+.sub_title p{
+    display: inline-block;
+    font-family:'Noto Sans', sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid #000;
+}
+
+.contents{
+    font-family: 'NotoSansD', sans-serif;
+    color: #000;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.outer-wrapper p{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    line-height: 38px;
+    letter-spacing: -0.3px;
+    color: #000;
+}
+
+/*ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ푸터ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ*/
+
+
+.footer{
+    
+    float: right;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    background-color: #1E232D;
+    width: 100%;
+    height: 80px;
+}
+
+.footerwidth{
+    padding: 30px 20px;
+    height:80px;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.left_con p{
+    text-align: center;
+    display: inline-block; 
+    color: #d1d1d1;
+    font-size: 14px;
+    padding-right: 16px;
+}
+
+
+a{
+    text-decoration: underline;
+    color: #eaeaea;
+    font-size: 18px;
+    margin: 0;
+}
+
