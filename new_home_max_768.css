@@ -1,125 +1,119 @@
-@media screen and (max-width:500px){
-    
-    .nav{
+@media screen and (max-width: 500px) {
+  .nav {
     padding: 17px 0 0;
     line-height: 36px;
-}
-    .nav h2{
-        margin-left:20px;
-    }
-    
-    .logo{
-        width: 36px;
-        height: 36px;
-    }
-    .menu{
-        margin-right: 20px;
-    }
-    .menu_work{
-        margin-left: 8px;
-    }
-    
-    .meposition{
-        font-size:32px;
-        letter-spacing: -0.5px;
-        line-height: 1.6;
-        margin-bottom: 40px;
-    }
-    
-    
-    .top_text{
-        margin: 160px 20px 0 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        margin-top: 160px;
-    }
-    
-    
-    .top{
-        height: 516px;
-    }
-    .text_hello{
-        margin-right: 20px;
-        margin-left: 0px;
-        padding-top: 80px;
-    }
-    .text_con{
-        margin-right: 20px;
-        padding-bottom: 0;
-        padding-top: 40px;
-        margin-left: 0;
-        
-    }
-    .hello{
-        font-size: 20px;
-        padding-bottom: 20px;
-        display: block;
-        margin-right: 0;
-        width: 100%;
-        
-    }
-    .text_con{
-        padding-top: 130px;
-    }
-    .text_box{
-        padding-bottom: 0;
-    }
-    .middle_contents{
-        display:block;
-        width: 100%;
-        padding-bottom: 24px;
-    }
-    .title{
-        
-        font-size: 20px;
-        margin: 0;
-        padding-bottom:48px;
-    }
-    .title3{
-        padding: 0;
-        width: 100%;
-    }
-   .box{
-        margin: 0;
-        width: 375px;
-        height: 252px;
-    }
-    .container{
-        margin: 10px 0 10px 0;
-    }
-    .btn-3{
-        width:80px;
-    }
-  .outer-wrapper{
-        margin: 0 auto;
-    }
-    
-    .sub_title{
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: -0.35px;
-        margin-bottom: 24px;
-    }
-    .contents{
-        font-weight: 100;
-        font-size: 16px;
-        letter-spacing: -0.35px;
-        line-height: 26px;
-    }
-    
-    .outer-wrapper p{
-        font-size: 16px;
-    }
-    .top_button{
-        bottom: 28px;
-    }
-.footer
-    {
-     height: 60px;
-    }
+  }
 
-.footerwidth{
+  .nav h2 {
+    margin-left: 20px;
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  .menu {
+    margin-right: 20px;
+  }
+  .menu_work {
+    margin-left: 8px;
+  }
+
+  .meposition {
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+  }
+
+  .top_text {
+    margin: 160px 20px 0 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 160px;
+  }
+
+  .top {
+    height: 516px;
+  }
+  .text_hello {
+    margin-right: 20px;
+    margin-left: 0px;
+    padding-top: 80px;
+  }
+  .text_con {
+    margin-right: 20px;
+    padding-bottom: 0;
+    padding-top: 40px;
+    margin-left: 0;
+  }
+  .hello {
+    font-size: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-right: 0;
+    width: 100%;
+  }
+  .text_con {
+    padding-top: 130px;
+  }
+  .text_box {
+    padding-bottom: 0;
+  }
+  .middle_contents {
+    display: block;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  .title {
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 48px;
+  }
+  .title3 {
+    padding: 0;
+    width: 100%;
+  }
+  .box {
+    margin: 0;
+    width: 375px;
+    height: 252px;
+  }
+  .container {
+    margin: 10px 0 10px 0;
+  }
+  .btn-3 {
+    width: 80px;
+  }
+  .outer-wrapper {
+    margin: 0 auto;
+  }
+
+  .sub_title {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    margin-bottom: 24px;
+  }
+  .contents {
+    font-weight: 100;
+    font-size: 16px;
+    letter-spacing: -0.35px;
+    line-height: 26px;
+  }
+
+  .outer-wrapper p {
+    font-size: 16px;
+  }
+  .top_button {
+    bottom: 28px;
+  }
+  .footer {
+    height: 60px;
+  }
+
+  .footerwidth {
     padding: 20px 10px;
-    height:48px;
-
+    height: 48px;
+  }
 }
