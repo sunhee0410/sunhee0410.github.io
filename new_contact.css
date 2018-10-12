@@ -88,6 +88,7 @@ body {
 .main {
   background-color: #fff;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: top;
   max-height: 803px;
   max-width: 100%;
