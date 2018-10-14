@@ -31,8 +31,8 @@ body {
 }
 .top_button {
   width: 60px;
-  position: fixed;
-  bottom: 48px;
+  position: absolute;
+  bottom: 60px;
   right: 20px;
 }
 
