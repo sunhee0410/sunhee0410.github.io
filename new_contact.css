@@ -96,12 +96,6 @@ body {
   margin: 0 auto;
 }
 
-.bg {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
 .middle {
   background-color: #000;
   min-height: 331px;
