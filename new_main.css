@@ -257,8 +257,8 @@ body {
 
 .top_button {
   width: 46px;
-  position: fixed;
-  bottom: 100px;
+  position: absolute;
+  bottom: 60px;
   right: 20px;
 }
 
