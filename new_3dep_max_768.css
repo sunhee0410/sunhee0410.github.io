@@ -21,7 +21,7 @@
     height: 517px;
   }
   .main_inner {
-    background-image: url(768_max_img1.png);
+    background-image: url(project1_768_max_img1.png);
     -webkit-background-size: 375px 517px;
     background-position: 0 0;
     width: auto;
@@ -34,8 +34,12 @@
   .inner_cell p {
     font-size: 28px;
     letter-spacing: -0.3px;
-    line-height: 40px;
+    line-height: 36px;
   }
+    
+ .inner_cell p span{
+     font-size: 24px;
+    }
 
   .summary {
     padding: 130px 0 0;

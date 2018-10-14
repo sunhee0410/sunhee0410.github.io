@@ -88,7 +88,7 @@ body {
 }
 
 .main_inner {
-  background-image: url(img1.png);
+  background-image: url(project1_img1.png);
   max-width: 965px;
   width: 100%;
   height: 100%;
@@ -104,15 +104,17 @@ body {
 }
 
 .inner_cell p {
-  font-family: 'NanumSquareL', sans-serif;
-  font-size: 44px;
-  line-height: 63px;
+  font-family: 'NanumSquareR', sans-serif;
+  font-size: 48px;
+  line-height: 60px;
+    font-weight: 400;
   letter-spacing: -0.3px;
   color: #fff;
 }
 
-.inner_cell span {
-  font-family: 'NanumSquareB', sans-serif;
+.inner_cell p span {
+    font-size: 32px;
+font-weight: 300;
 }
 
 .summary {

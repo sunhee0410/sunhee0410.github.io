@@ -12,18 +12,21 @@
     height: 520px;
   }
   .main_inner {
-    background-image: url(768_img1.png);
+    background-image: url(project1_768_img1.png);
     max-width: 637px;
   }
   .inner_cell {
-    top: 158px;
+    top: 200px;
   }
   .inner_cell p {
-    font-size: 36px;
+    font-size: 32px;
     letter-spacing: -0.3px;
-    line-height: 49px;
+    line-height: 38px;
     opacity: 0.9;
   }
+    .inner_cell p span{
+    font-size: 24px;
+    }
 
   .summary_content {
     width: 637px;
