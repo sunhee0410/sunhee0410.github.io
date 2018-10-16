@@ -1,0 +1,83 @@
+@media screen and (max-width: 767px) {
+  .nav {
+    padding: 17px 0 0;
+    line-height: 36px;
+  }
+  .nav h2 {
+    margin-left: 20px;
+  }
+
+  .logo {
+    width: 36px;
+    height: 36px;
+  }
+  .menu {
+    margin-right: 20px;
+  }
+  .menu_work {
+    margin-left: 8px;
+  }
+  .main {
+    height: 517px;
+  }
+  .main_inner {
+    background-image: url(project2/project2_main_768_max_img1.png);
+    -webkit-background-size: 375px 517px;
+    background-position: 0 0;
+    width: auto;
+    padding: 0 20px;
+  }
+  .inner_cell {
+    top: 268px;
+    height: 115px;
+  }
+  .inner_cell p {
+    font-size: 28px;
+    letter-spacing: -0.3px;
+    line-height: 36px;
+  }
+    
+ .inner_cell p span{
+     font-size: 20px;
+    }
+
+  .summary {
+    padding: 130px 0 0;
+  }
+  .summary_content {
+    width: inherit;
+    padding: 0 20px;
+  }
+
+  .contents_warp p {
+    float: none;
+    margin: 0 0 30px 0;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0;
+  }
+
+  .contents_box {
+    margin-left: 0;
+  }
+
+  .contents_box p1 {
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: -0.35px;
+  }
+
+  .story {
+    margin-top: 100px;
+  }
+
+  .story_content {
+    width: inherit;
+    padding: 0 20px;
+  }
+
+  .top_button {
+    width: 40px;
+    right: 10px;
+  }
+}
