@@ -11,6 +11,11 @@
   .main {
     height: 520px;
   }
+    
+    .close{
+    position: fixed;
+    right: 32px;
+}
 
   .main_inner {
     background-image: url(project1_768_img1@2x.png);

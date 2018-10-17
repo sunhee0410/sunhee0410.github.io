@@ -20,6 +20,11 @@
   .main {
     height: 517px;
   }
+    
+        .close{
+    position: fixed;
+    right: 20px;
+}
   .main_inner {
     background-image: url(project1_768_max_img1.png);
     -webkit-background-size: 375px 517px;

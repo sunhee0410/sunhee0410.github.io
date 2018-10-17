@@ -78,7 +78,15 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.close{
+    position: fixed;
+    right: 40px;
+}
 
+.close_btn{
+    width: 28px;
+    height: 28px;
+}
 .main {
   background-color: #3fc4ff;
   overflow: hidden;

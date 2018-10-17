@@ -55,29 +55,6 @@ body {
   cursor: pointer;
 }
 
-.menu {
-  float: right;
-  margin: 0;
-  padding: 0;
-  margin-right: 40px;
-}
-
-.menu li:first-child {
-  margin-left: 0;
-}
-
-.menu li {
-  vertical-align: top;
-  margin-left: 19px;
-}
-
-.menu li a {
-  color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  text-decoration: none;
-  cursor: pointer;
-}
 
 .main {
   background-color: #3fc4ff;
@@ -124,7 +101,15 @@ body {
   letter-spacing: -0.3px;
   color: #fff;
 }
+.close{
+    position: fixed;
+    right: 40px;
+}
 
+.close_btn{
+    width: 28px;
+    height: 28px;
+}
 .inner_cell p span {
     font-size: 32px;
 font-weight: 300;

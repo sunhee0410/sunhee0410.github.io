@@ -28,7 +28,10 @@
     .inner_cell p span{
     font-size: 24px;
     }
-
+        .close{
+    position: fixed;
+    right: 32px;
+}
   .summary_content {
     width: 637px;
   }
