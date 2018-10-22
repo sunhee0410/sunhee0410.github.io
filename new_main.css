@@ -222,15 +222,23 @@ body {
 }
 
 .imgtext_warp p {
-font-weight:300;
+font-weight:100;
   position: absolute;
+    opacity: .8;
   color: #fff;
-  font-size: 28px;
+  font-size: 24px;
   letter-spacing: -0.2px;
   line-height: 44px;
-  margin-left: 46px;
-    bottom: 55px;
+  margin-left: 20px;
+    bottom: 32px;
   
+}
+
+.imgtext_warp p span{
+    font-size: 14px;
+    margin-left: 8px;
+    opacity: 0.5;
+    
 }
 
 .imgtext_warp:hover {
