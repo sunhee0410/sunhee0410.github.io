@@ -21,7 +21,7 @@
     height: 517px;
   }
   .main_inner {
-      background-image: url(project5/project5_main3@2x.png);
+      background-image: url(project5/project5_main3.png);
     -webkit-background-size: 375px 517px;
     background-position: 0 0;
     width: auto;
@@ -42,8 +42,7 @@
     right: 20px;
 }
  .inner_cell p span{
-          opacity: .7;
-     font-size: 16px;
+     font-size: 20px;
     }
 
   .summary {
