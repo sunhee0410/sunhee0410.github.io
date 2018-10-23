@@ -19,7 +19,7 @@
 
   .main_inner {
     background-image: url(project1_768_img1@2x.png);
-    max-width: 637px;
+    max-width: 700px;
   }
   .inner_cell {
     top: 200px;
@@ -35,7 +35,7 @@
     }
 
   .summary_content {
-    width: 637px;
+    width: 700px;
   }
 
   .contents_warp p {
@@ -60,6 +60,6 @@
   }
 
   .story_content {
-    width: 637px;
+    width: 700px;
   }
 }

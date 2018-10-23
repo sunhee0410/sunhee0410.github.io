@@ -14,7 +14,7 @@
 
   .main_inner {
     background-image: url(project4/projct4_main2@2x.png);
-    max-width: 637px;
+    max-width: 700px;
   }
   .inner_cell {
     top: 200px;
@@ -33,7 +33,7 @@
     right: 32px;
 }
   .summary_content {
-    width: 637px;
+    width: 700px;
   }
 
   .contents_warp p {
@@ -58,6 +58,6 @@
   }
 
   .story_content {
-    width: 637px;
+    width: 700px;
   }
 }
