@@ -43,7 +43,8 @@
   }
     
  .inner_cell p span{
-     font-size: 20px;
+     font-size: 16px;
+     opacity: .7;
     }
 
   .summary {
