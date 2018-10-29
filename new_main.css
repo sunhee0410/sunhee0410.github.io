@@ -212,40 +212,42 @@ body {
   width: 50%;
 }
 
+
 .imgtext_warp {
-  text-align: center;
-  width: 100%;
-  height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   position: absolute;
-  background-color: rgba(30, 35, 45, 0.45);
+  background-color: #000;
   opacity: 0;
 }
-
+.text_box{
+    width: 100%;
+    -webkit-transform:translate(-50%, -50%);
+    text-align: center;
+    left:50%;
+    top: 50%;
+    position: absolute;
+}
 .imgtext_warp p {
 font-weight:100;
-    opacity: .8;
-    
-  position: absolute;
+position: relative;
   color: #fff;
   font-size: 24px;
   letter-spacing: -0.2px;
-  line-height: 44px;
-  margin-left: 20px;
-    bottom: 32px;
-  
 }
 
 .imgtext_warp p span{
     font-size: 14px;
-    margin-left: 8px;
-    opacity: 0.5;
 }
 
 .imgtext_warp:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .fade {
+    width: 100%;
   opacity: 1;
 }
 .fade:hover {
